@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget{
 
 class MyHomePage extends StatelessWidget{
   const MyHomePage({super.key, this.title = "My home page"});
-  final String title; 
+  final String title ; 
 
   @override
   Widget build(BuildContext context) {
